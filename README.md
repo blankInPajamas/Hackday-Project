@@ -1,4 +1,4 @@
-          Tare Zameen par
+# Tare Zameen par
 
 
 In this story , we are having a child dyslexic kid with dyslexia. He has serious problems  with reading and writing. Also he cannot express his emotions and feelings by telling them. Thus he feels very unwanted in his own family. His parents are unaware about his disease. In school he cannot be responsive and he has no friends with whom he can play. Teachers are unable to catch his problems and thus he felt abandoned in school too.
