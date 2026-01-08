@@ -1,0 +1,21 @@
+[background arg="res://assets/bg/art_exhibit.jpg" fade="0.5"]
+
+*Aamir spent weeks working with the child, not on reading, but on painting, sculpting, and expression.*
+
+join sir left
+join kid right
+
+Aamir: Look at all the people here, ready to see your work. Remember what we talked about? Your art speaks for you.
+
+Kid: (Whispering) I... I remember.
+
+leave sir 
+update kid center
+*The kid stands proudly beside a canvas that is completely covered in vibrant, abstract shapes that resolve into two figures holding hands.*
+
+
+leave All
+
+After Aamir made the crucial decision to consult with his colleague, Ms. Priya, they agreed that the key to helping the child was not fixing his academic weakness but focusing on his artistic strength to unlock his trapped emotional voice. Aamir then dedicated weeks to working with the child, shifting the focus from worksheets to canvases and clay, guiding him to use vibrant, abstract shapes to articulate his inner world. The climax arrived at a small school art exhibit where the child stood beside his latest creation: a canvas of brilliant color resolving into the clear image of two figures holding hands. As the child's classmates approached, not with judgment but with curiosity and awe, asking him how he achieved the beautiful colors, the child, instead of whispering, spoke with a shy but confident smile, offering to show them his unique method. Watching the children gather around the painting and the newly liberated boy, Aamir realized his greatest lesson was complete: the child was no longer isolated, having found his voice and his friends. The beautiful mind was no longer trapped; the fire of his imagination had been successfully kindled.
+
+[end_timeline]

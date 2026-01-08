@@ -1,0 +1,34 @@
+[background arg="res://assets/bg/office001.webp" fade="0.5"]
+join sir left
+join priya right
+
+Priya: Aamir, you look troubled. What's on your mind?
+
+Aamir: Ms. Priya, I need your advice. It's about the kid, the one who barely speaks in class.
+
+Priya: Ah, yes. He's been a puzzle for the whole staff. The administration is starting to consider moving him to a specialized program.
+
+Aamir: No, wait! I found something. I think he might be dyslexic. And he's incredibly gifted in art.  I saw a drawing... his mind is vibrant, but it's trapped.
+
+Priya: Dyslexia? That would explain the jumbled worksheets and the isolation. Why didn't we see that sooner?
+
+Priya: But an artist, you say? That's a huge lead. We usually focus on fixing the weaknesses, but maybe we should focus on his strength.
+
+Aamir: Exactly! I want to help him use his art to communicate, to bridge the gap.
+
+Priya: That's a beautiful idea, Aamir. But this school isn't equipped for art therapy. It will take time, resources, and a lot of patience.
+
+Aamir: I understand. But if the mind is never a slave, as they say, we must find a way to set his imagination free.
+
+Priya: Very well. The core issue is still his isolation. **If his art is his language, how can he use it to say, "I want a friend"?**
+
+[update priya center]
+
+Priya: Find his biggest emotional need—family, friendship, or confidence. Then, guide his art toward it. That's your assignment.
+
+Aamir: Got it. Find the emotional core, then use art to achieve the goal.
+
+leave sir 
+leave priya
+
+jump end_game_success/

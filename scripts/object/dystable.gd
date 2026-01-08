@@ -37,7 +37,7 @@ func _execute_interaction() -> void:
 	# YOUR INTERACTION LOGIC GOES HERE
 	print("--- INTERACTED: F was pressed while " + TARGET_BODY_NAME + " was in range! ---")
 	Dialogic.start("res://timelines/dys_image.dtl")
-	get_tree().change_scene_to_file("res://scenes/introduction.tscn")
+	get_tree().quit()
 # --- Overlap Handlers ---
 
 func _on_overlap_area_body_entered(body: Node2D) -> void:

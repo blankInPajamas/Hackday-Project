@@ -1,4 +1,4 @@
-[background arg="res://assets/bg/table.jpg"]
+[background arg="res://assets/bg/table.jpg" fade="0.0"]
 
 join sir left
 join dyslexic_image right
@@ -9,7 +9,7 @@ Amir: Is he dyslexic by any chance?
 Amir: No wonder, he had such a tough time coping up in class!
 
 Amir: But hey, what is this?
-leave dyslexic_image 
+leave dyslexic_image
 
 join painting right
 *Aamir is shocked by seeing the painting*
@@ -18,4 +18,12 @@ Aamir: He is extremely talented!
 leave painting
 
 update sir center
+Aamir: What can I do to help the kid?
+
 leave sir
+
+Enter your option
+- Ask teacher
+	jump ask_teacher/
+- Do nothing
+	jump do_nothing/

@@ -1,0 +1,18 @@
+Sir: (Sighs)
+
+Aamir: (To himself) I don't know what I'd even say to the teacher. I don't have a medical degree, and my evidence is just a jumbled worksheet and a sad painting.
+
+Aamir: If I say something, they might just see me as an overzealous new hire trying to make trouble.
+
+Aamir: It's probably better to just stick to the curriculum for now. Maybe the child will grow out of it.
+
+*Aamir gathers his notes, but his gaze drifts back to the spot where the jumbled worksheet lay.*
+
+#[background arg="res://assets/bg/classroom_empty.jpg" fade="1.0"]
+
+
+*The classroom is silent. The desk where the child usually sits is empty.*
+*The kid has left*
+leave All
+
+[end_timeline]
