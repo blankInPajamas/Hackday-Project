@@ -15,19 +15,11 @@ Making some decisions Amir will help dyslexic kid to express his feelings withou
 About addons
 
 To add Dialogic to your project and solve the error, follow these steps:
-1. Install & Enable
-Download: Go to the AssetLib tab in Godot, search for Dialogic, and click Download/Install.
-Enable: Go to Project > Project Settings > Plugins and check the Enabled box for Dialogic.
-Restart: Close and reopen Godot to ensure the DialogicStyle error clears.
-2. Basic Setup
-Open Dialogic: Click the new Dialogic icon at the top of your editor.
-Characters: Create characters for Amir and the Student.
-Timeline: Create a new Timeline (e.g., "Amir_Discovery") and add Text Events to tell the story of Amir identifying the student's talent for drawing.
-3. Trigger the Story
-To play the dialogue during your game, add this code to your script:
-GDScript
-func _ready():
-    Dialogic.start("Amir_Discovery")
+> Install & Enable
+> Download: Go to the AssetLib tab in Godot, search for Dialogic, and click Download/Install.
+> Enable: Go to Project > Project Settings > Plugins and check the Enabled box for Dialogic.
+> Restart: Close and reopen Godot to ensure the DialogicStyle error clears.
+
 
 
 
