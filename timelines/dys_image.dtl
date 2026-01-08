@@ -5,6 +5,17 @@ join dyslexic_image right
 
 Sir: Hold up, what is this?
 Aamir: Why is this so jumbled up?
+Amir: Is he dyslexic by any chance?
+Amir: No wonder, he had such a tough time coping up in class!
 
-leave sir 
-leave clean_image
+Amir: But hey, what is this?
+leave dyslexic_image 
+
+join painting right
+*Aamir is shocked by seeing the painting*
+Aamir: Did he make this?
+Aamir: He is extremely talented!
+leave painting
+
+update sir center
+leave sir

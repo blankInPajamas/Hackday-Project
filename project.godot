@@ -24,11 +24,13 @@ Dialogic="*res://addons/dialogic/Core/DialogicGameHandler.gd"
 directories/dch_directory={
 "clean_image": "res://timelines/characters_dialogic/clean_image.dch",
 "dyslexic_image": "res://timelines/characters_dialogic/dyslexic_image.dch",
+"painting": "res://timelines/characters_dialogic/painting.dch",
 "sir": "res://timelines/characters_dialogic/sir.dch"
 }
 directories/dtl_directory={
 "clean_image": "res://timelines/clean_image.dtl",
-"dys_image": "res://timelines/dys_image.dtl"
+"dys_image": "res://timelines/dys_image.dtl",
+"greetings": "res://timelines/greetings.dtl"
 }
 layout/style_directory={
 "": "res://styles/default.tres",

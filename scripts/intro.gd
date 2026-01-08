@@ -123,6 +123,8 @@ func _resolve_title() -> void:
 
 
 func _on_start_btn_pressed() -> void:
+	Dialogic.start("res://timelines/greetings.dtl")
+	get_tree().create_timer(1).timeout
 	get_tree().change_scene_to_file("res://scenes/map001.tscn")
 	pass # Replace with function body.
 

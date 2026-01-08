@@ -12,18 +12,18 @@
 },
 &"default_portrait": "default",
 &"description": "",
-&"display_name": "Aamir",
+&"display_name": "painting",
 &"mirror": false,
 &"nicknames": [""],
-&"offset": Vector2(0, 100),
+&"offset": Vector2(0, 0),
 &"portraits": {
 "default": {
 "export_overrides": {
-"image": "\"res://assets/characters/sir002.png\""
+"image": "\"res://assets/bg/drawing book.png\""
 },
 "mirror": false,
-"offset": Vector2(0, 0),
-"scale": 1,
+"offset": Vector2(0, -250),
+"scale": 0.5,
 "scene": ""
 }
 },

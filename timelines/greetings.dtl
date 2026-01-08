@@ -1,12 +1,19 @@
-join Amir center
-**This is Amir. He has recently joined a school as a drawing teacher. Today is his first day at school.**
+[background arg="res://assets/bg/school_image.jpg" fade="0.0"]
+join sir center
+This is Amir. He has recently joined a school as a drawing teacher. Today is his first day at school.
+So far Amir is enjoying taking classes here and also he made a friendly relaion with the students.
+leave sir
 
-**So far Amir is enjoying taking classes here and also he made a friendly relaion with the students.
-But at some moment he noticed something with a particular student Ishaan. There something different with Ishaan. He is not talking with anyone and not responsive in the class.**
+[background arg="res://assets/bg/troubled_child_02.jpg" fade="0.0"]
+But at some moment he noticed something with a particular student Ishaan. There something different with Ishaan. He is not talking with anyone and not responsive in the class.
 
-** So Amir went to him and tried to talk with him but still Ishaan didn't response.**
+[background arg="res://assets/bg/sir_talk.jpg" fade="0.0"]
+So Amir went to him and tried to talk with him but still Ishaan didn't response.
 
-**Next day Amir came to Ishaan during the drawing class and checked his excercise copies. Then he got astonished and noticed that Ishaan neither can read the words nor write it in proper way. All the words are jumbled.**
+[background arg="res://assets/bg/empty_classroom.jpg" fade="0.0"]
+join sir center
+Next day Amir came to the classroom beforehand to check the copies of Ishaan
+leave sir
 
-** The he researched on it and finally understood that Ishaan has Dyslexia.**
 [background fade="0.0"]
+Use WASD to move and interact with F
