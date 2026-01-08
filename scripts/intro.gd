@@ -7,9 +7,9 @@ const FINAL_TITLE: String = "TAARE ZAMEEN PAR"
 # The starting jumbled phrase (Same length as FINAL_TITLE, including spaces)
 const STARTING_JUMBLE: String = "REAATEENZAFJJD" 
 # Duration of the rapid jumbling effect
-const JUMBLE_DURATION: float = 0.75 
+const JUMBLE_DURATION: float = 0.5 
 # How long the starting jumble displays before the rapid effect begins
-const INITIAL_DISPLAY_DURATION: float = 2.0 
+const INITIAL_DISPLAY_DURATION: float = 0.5 
 # How often the text changes during the jumble phase (rapid flashes)
 const SWAP_INTERVAL: float = 0.05
 # How long the final title displays before the game theoretically starts
@@ -123,6 +123,7 @@ func _resolve_title() -> void:
 
 
 func _on_start_btn_pressed() -> void:
+	get_tree().change_scene_to_file("res://scenes/map001.tscn")
 	pass # Replace with function body.
 
 

@@ -1,0 +1,10 @@
+[background arg="res://assets/bg/table.jpg"]
+
+join sir left
+join dyslexic_image right
+
+Sir: Hold up, what is this?
+Aamir: Why is this so jumbled up?
+
+leave sir 
+leave clean_image

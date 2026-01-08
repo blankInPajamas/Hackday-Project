@@ -1,0 +1,9 @@
+[background arg="res://assets/bg/table.jpg"]
+
+join sir left
+join clean_image right
+
+Sir: This kid's writing is okay.
+
+leave sir 
+leave clean_image

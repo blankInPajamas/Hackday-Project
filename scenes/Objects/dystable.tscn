@@ -1,0 +1,44 @@
+[gd_scene load_steps=7 format=3 uid="uid://blejof264f8oj"]
+
+[ext_resource type="Script" uid="uid://bk1rbwhwvvpk6" path="res://scripts/object/dystable.gd" id="1_el3i4"]
+[ext_resource type="Texture2D" uid="uid://dxe3d5tq5ju1f" path="res://assets/classroom/top_down_table.png" id="2_55kb1"]
+[ext_resource type="Texture2D" uid="uid://d3ike11fh4wma" path="res://assets/extras/keyboard_letters.png" id="3_sai4d"]
+[ext_resource type="Texture2D" uid="uid://dmyxpxq1xubij" path="res://assets/roomset/Top-Down_Retro_Interior/TopDownHouse_SmallItems.png" id="4_o245a"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_o3aus"]
+size = Vector2(64, 64)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_bmpgw"]
+size = Vector2(24.285717, 47.142857)
+
+[node name="Table" type="CharacterBody2D"]
+scale = Vector2(0.7, 0.7)
+script = ExtResource("1_el3i4")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("2_55kb1")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+scale = Vector2(0.49999997, 0.49999997)
+shape = SubResource("RectangleShape2D_o3aus")
+
+[node name="Area2D" type="Area2D" parent="."]
+
+[node name="Check_overlap" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(-0.7142842, -13.571425)
+scale = Vector2(0.9999996, 0.9999996)
+shape = SubResource("RectangleShape2D_bmpgw")
+
+[node name="KeyboardLetters" type="Sprite2D" parent="."]
+visible = false
+position = Vector2(-28.571442, -2.8571427)
+texture = ExtResource("3_sai4d")
+region_enabled = true
+region_rect = Rect2(79.7425, 145.7304, 15.451675, 14.798782)
+
+[node name="Book" type="Sprite2D" parent="."]
+position = Vector2(-7.6293945e-06, -5.714285)
+texture = ExtResource("4_o245a")
+region_enabled = true
+region_rect = Rect2(0.80823135, 52.90454, 15.438597, 12.166283)
