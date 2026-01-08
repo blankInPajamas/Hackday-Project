@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://ocavyy7jpe58"
+path="res://.godot/imported/achievement music.mp3-b283d42efe2b5c0c074fbb056ce34231.mp3str"
+
+[deps]
+
+source_file="res://assets/musics/achievement music.mp3"
+dest_files=["res://.godot/imported/achievement music.mp3-b283d42efe2b5c0c074fbb056ce34231.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4
