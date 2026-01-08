@@ -1,6 +1,5 @@
 extends Node2D
 
-# --- Constants and OnReady Variables ---
 
 @onready var title: Label = $Control/Title # Ensure the Label is correctly named and parented
 # The correct, final title (Use ALL CAPS for visual impact)
@@ -121,3 +120,11 @@ func _resolve_title() -> void:
 	# Replace this line with your actual scene change logic
 	# get_tree().change_scene_to_file("res://scenes/main_game.tscn")
 	jumble_timer.queue_free()
+
+
+func _on_start_btn_pressed() -> void:
+	pass # Replace with function body.
+
+
+func _on_quit_btn_pressed() -> void:
+	get_tree().quit()

@@ -346,3 +346,6 @@ theme_override_fonts/font = SubResource("FontFile_uycjf")
 theme_override_font_sizes/font_size = 50
 theme_override_styles/normal = SubResource("StyleBoxFlat_4fbsd")
 text = "Quit game"
+
+[connection signal="pressed" from="Control/VBoxContainer/Start_btn" to="." method="_on_start_btn_pressed"]
+[connection signal="pressed" from="Control/VBoxContainer/Quit_btn" to="." method="_on_quit_btn_pressed"]
